@@ -6,7 +6,7 @@ import classes from './HeaderCartButton.module.css';
 const HeaderCartButton = (props) => {
     return (
         // 버튼 안에는 아이콘과 텍스트를 넣을 것이다. 
-        <button className={classes.button}>
+        <button className={classes.button} onClick={props.onClick}>
             {/* 아이콘부터 */}
             <span className={classes.icon}>
                 <CartIcon />
