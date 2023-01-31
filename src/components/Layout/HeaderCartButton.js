@@ -1,7 +1,5 @@
 import { useContext } from 'react';
 
-import Header from './Header';
-
 import CartIcon from '../Cart/CartIcon'
 import CartContext from '../context/cart-context';
 import classes from './HeaderCartButton.module.css';
