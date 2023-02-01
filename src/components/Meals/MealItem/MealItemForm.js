@@ -5,7 +5,7 @@ import Input from '../../UI/Input';
 import classes from './MealItemForm.module.css';
 
 const MealItemForm = (props) => {
-    const [amountIsValid, setAmountIsValid] = useState();
+    const [amountIsValid, setAmountIsValid] = useState(false);
     const amountInputRef = useRef();
 
     // submit되면 장바구니에 아이템이 추가되어야 한다. 
